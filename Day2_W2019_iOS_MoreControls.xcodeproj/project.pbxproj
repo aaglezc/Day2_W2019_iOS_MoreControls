@@ -17,6 +17,9 @@
 		9B895DDB222F4FCC0040059C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B895DDA222F4FCC0040059C /* ImageViewController.swift */; };
 		9B895DDF222F51DA0040059C /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B895DDE222F51DA0040059C /* images.jpeg */; };
 		9B895DE1222F52770040059C /* images (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B895DE0222F52770040059C /* images (1).jpeg */; };
+		9B895DE3222F554C0040059C /* cat_PNG50529.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B895DE2222F554C0040059C /* cat_PNG50529.png */; };
+		9B895DE5222F55540040059C /* 180813120032-adorable-animal-cat-20787cat-stock-photo-super-169.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B895DE4222F55540040059C /* 180813120032-adorable-animal-cat-20787cat-stock-photo-super-169.jpg */; };
+		9B895DE7222F606A0040059C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B895DE6222F606A0040059C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		9B895DDA222F4FCC0040059C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		9B895DDE222F51DA0040059C /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		9B895DE0222F52770040059C /* images (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (1).jpeg"; sourceTree = "<group>"; };
+		9B895DE2222F554C0040059C /* cat_PNG50529.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_PNG50529.png; sourceTree = "<group>"; };
+		9B895DE4222F55540040059C /* 180813120032-adorable-animal-cat-20787cat-stock-photo-super-169.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "180813120032-adorable-animal-cat-20787cat-stock-photo-super-169.jpg"; sourceTree = "<group>"; };
+		9B895DE6222F606A0040059C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +112,15 @@
 				9B895DAC222F3BE90040059C /* AppDelegate.swift */,
 				9B895DAE222F3BE90040059C /* FisrtViewController.swift */,
 				9B895DB0222F3BE90040059C /* Main.storyboard */,
+				9B895DE4222F55540040059C /* 180813120032-adorable-animal-cat-20787cat-stock-photo-super-169.jpg */,
+				9B895DE2222F554C0040059C /* cat_PNG50529.png */,
 				9B895DDE222F51DA0040059C /* images.jpeg */,
 				9B895DE0222F52770040059C /* images (1).jpeg */,
 				9B895DB3222F3BEA0040059C /* Assets.xcassets */,
 				9B895DB5222F3BEA0040059C /* LaunchScreen.storyboard */,
 				9B895DB8222F3BEA0040059C /* Info.plist */,
 				9B895DDA222F4FCC0040059C /* ImageViewController.swift */,
+				9B895DE6222F606A0040059C /* SecondViewController.swift */,
 			);
 			path = Day2_W2019_iOS_MoreControls;
 			sourceTree = "<group>";
@@ -238,6 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B895DE3222F554C0040059C /* cat_PNG50529.png in Resources */,
+				9B895DE5222F55540040059C /* 180813120032-adorable-animal-cat-20787cat-stock-photo-super-169.jpg in Resources */,
 				9B895DDF222F51DA0040059C /* images.jpeg in Resources */,
 				9B895DB7222F3BEA0040059C /* LaunchScreen.storyboard in Resources */,
 				9B895DB4222F3BEA0040059C /* Assets.xcassets in Resources */,
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B895DE7222F606A0040059C /* SecondViewController.swift in Sources */,
 				9B895DAF222F3BE90040059C /* FisrtViewController.swift in Sources */,
 				9B895DDB222F4FCC0040059C /* ImageViewController.swift in Sources */,
 				9B895DAD222F3BE90040059C /* AppDelegate.swift in Sources */,

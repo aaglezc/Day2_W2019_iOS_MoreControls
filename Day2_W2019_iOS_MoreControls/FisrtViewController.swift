@@ -91,5 +91,11 @@ class FirstViewController: UIViewController {
         self.present(alert, animated: true)
         
     }
+    @IBAction func btnNextScreen(_ sender: UIButton) {
+        var sb = UIStoryboard(name: "Main", bundle: nil)
+        var  SecondView = sb.instantiateViewController(withIdentifier: "SecondView") as! SecondViewController
+        
+        self.present(SecondView, animated: true)
+    }
 }
 
