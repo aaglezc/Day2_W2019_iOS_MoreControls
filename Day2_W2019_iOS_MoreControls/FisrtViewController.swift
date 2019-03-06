@@ -55,6 +55,7 @@ class FirstViewController: UIViewController {
             textField.placeholder = "Input your password here..."
         }
         
+        // Action for "OK"
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
             
             if let name = alert.textFields?.first?.text {
@@ -66,6 +67,7 @@ class FirstViewController: UIViewController {
             }
         }))
         
+        // Action for "Cancel" (none)
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         
         self.present(alert, animated: true)

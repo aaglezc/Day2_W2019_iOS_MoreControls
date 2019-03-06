@@ -14,6 +14,9 @@
 		9B895DB7222F3BEA0040059C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B895DB5222F3BEA0040059C /* LaunchScreen.storyboard */; };
 		9B895DC2222F3BEA0040059C /* Day2_W2019_iOS_MoreControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B895DC1222F3BEA0040059C /* Day2_W2019_iOS_MoreControlsTests.swift */; };
 		9B895DCD222F3BEB0040059C /* Day2_W2019_iOS_MoreControlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B895DCC222F3BEB0040059C /* Day2_W2019_iOS_MoreControlsUITests.swift */; };
+		9B895DDB222F4FCC0040059C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B895DDA222F4FCC0040059C /* ImageViewController.swift */; };
+		9B895DDF222F51DA0040059C /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B895DDE222F51DA0040059C /* images.jpeg */; };
+		9B895DE1222F52770040059C /* images (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B895DE0222F52770040059C /* images (1).jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9B895DC8222F3BEA0040059C /* Day2_W2019_iOS_MoreControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day2_W2019_iOS_MoreControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B895DCC222F3BEB0040059C /* Day2_W2019_iOS_MoreControlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2_W2019_iOS_MoreControlsUITests.swift; sourceTree = "<group>"; };
 		9B895DCE222F3BEB0040059C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B895DDA222F4FCC0040059C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9B895DDE222F51DA0040059C /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		9B895DE0222F52770040059C /* images (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (1).jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				9B895DAC222F3BE90040059C /* AppDelegate.swift */,
 				9B895DAE222F3BE90040059C /* FisrtViewController.swift */,
 				9B895DB0222F3BE90040059C /* Main.storyboard */,
+				9B895DDE222F51DA0040059C /* images.jpeg */,
+				9B895DE0222F52770040059C /* images (1).jpeg */,
 				9B895DB3222F3BEA0040059C /* Assets.xcassets */,
 				9B895DB5222F3BEA0040059C /* LaunchScreen.storyboard */,
 				9B895DB8222F3BEA0040059C /* Info.plist */,
+				9B895DDA222F4FCC0040059C /* ImageViewController.swift */,
 			);
 			path = Day2_W2019_iOS_MoreControls;
 			sourceTree = "<group>";
@@ -229,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B895DDF222F51DA0040059C /* images.jpeg in Resources */,
 				9B895DB7222F3BEA0040059C /* LaunchScreen.storyboard in Resources */,
 				9B895DB4222F3BEA0040059C /* Assets.xcassets in Resources */,
+				9B895DE1222F52770040059C /* images (1).jpeg in Resources */,
 				9B895DB2222F3BE90040059C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B895DAF222F3BE90040059C /* FisrtViewController.swift in Sources */,
+				9B895DDB222F4FCC0040059C /* ImageViewController.swift in Sources */,
 				9B895DAD222F3BE90040059C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
